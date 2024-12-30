@@ -83,7 +83,7 @@ Kid (id=1)
 	Grandkid
 ```
 
-Brackets can also be used to add color, using `color=`, e.g: `(color=pink)` or `(id=1, color=pink)`.
+Brackets can also be used to add color, using `color=`, e.g: `(color=pink)` or `(id=1, color=pink)`. A list of usable colours can be found [here](https://graphviz.org/doc/info/colors.html)
 
 Step 2: Run the script and produce a Graphviz DOT file
 
@@ -97,4 +97,4 @@ Step 3: Produce PDF or Image using dot:
 dot -Tpdf -o family.pdf family.dot
 ```
 
-![result: LouisXIVfamily.svg](./LouisXIVfamily.svg)
+![image](https://raw.githubusercontent.com/tjnh05/familytreemaker/refs/heads/master/LouisXIVfamily.svg)
